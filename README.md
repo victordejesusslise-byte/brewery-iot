@@ -67,7 +67,7 @@ brewery-iot/
 ### 1 — Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/brewery-iot.git
+git clone https://github.com/Cajuz/brewery-iot.git
 cd brewery-iot
 ```
 
