@@ -11,15 +11,18 @@ services:
     image: eclipse-mosquitto:2.0
     container_name: brewery_mosquitto
     restart: unless-stopped
+    user: "1883:1883"                               # FIX 1: evita chown read-only error
     ports:
-      - "${MQTT_BROKER_PORT:-1883}:1883"   # TCP (ESP32 + Node-RED)
-      - "${MQTT_WS_PORT:-9001}:9001"       # WebSocket (opcional)
+      - "${MQTT_BROKER_PORT:-1883}:1883"
+      - "${MQTT_WS_PORT:-9001}:9001"
     volumes:
       - ./mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./mosquitto/config/passwd:/mosquitto/config/passwd:ro   # FIX 2: faltava este mount
       - ./mosquitto/data:/mosquitto/data
       - ./mosquitto/log:/mosquitto/log
     healthcheck:
-      test: ["CMD", "mosquitto_sub", "-t", "$$SYS/#", "-C", "1", "-u", "${MQTT_NODERED_USER}", "-P", "${MQTT_NODERED_PASSWORD}", "--quiet"]
+      test: ["CMD", "mosquitto_sub", "-t", "$$SYS/#", "-C", "1",
+             "-u", "${MQTT_NODERED_USER}", "-P", "${MQTT_NODERED_PASSWORD}", "--quiet"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -39,7 +42,8 @@ services:
       - "${NODERED_PORT:-1880}:1880"
     environment:
       - TZ=America/Sao_Paulo
-      - MQTT_BROKER_HOST=mosquitto          # nome do serviço interno
+      - NODE_RED_CREDENTIAL_SECRET=${NODERED_CREDENTIAL_SECRET}  # FIX 3: settings.js lê esta var
+      - MQTT_BROKER_HOST=mosquitto
       - MQTT_BROKER_PORT=${MQTT_BROKER_PORT:-1883}
       - MQTT_NODERED_USER=${MQTT_NODERED_USER}
       - MQTT_NODERED_PASSWORD=${MQTT_NODERED_PASSWORD}
@@ -54,8 +58,7 @@ services:
       - RETRY_MAX_ATTEMPTS=${RETRY_MAX_ATTEMPTS:-5}
       - CSV_BUFFER_PATH=${CSV_BUFFER_PATH:-/data/buffer.csv}
     volumes:
-      - ./node-red/flows:/data/flows
-      - ./node-red/data:/data
+      - ./node-red/data:/data          # único volume; flows ficam em ./node-red/data/flows/
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:1880"]
       interval: 30s

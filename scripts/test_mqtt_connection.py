@@ -18,26 +18,30 @@ from pathlib import Path
 from dotenv import load_dotenv
 import paho.mqtt.client as mqtt
 
-# Carrega .env da raiz do projeto
 load_dotenv(Path(__file__).parent.parent / ".env")
 
-BROKER_HOST  = os.getenv("MQTT_BROKER_HOST", "localhost")
-BROKER_PORT  = int(os.getenv("MQTT_BROKER_PORT", "1883"))
-TOPIC        = os.getenv("MQTT_TOPIC_TEMPERATURE", "brewery/sensor/temperature")
-ESP32_USER   = os.getenv("MQTT_ESP32_USER", "esp32")
-ESP32_PASS   = os.getenv("MQTT_ESP32_PASSWORD", "")
+BROKER_HOST = os.getenv("MQTT_BROKER_HOST", "localhost")
+BROKER_PORT = int(os.getenv("MQTT_BROKER_PORT", "1883"))
+TOPIC       = os.getenv("MQTT_TOPIC_TEMPERATURE", "brewery/sensors/temperature")  # FIX 2
+ESP32_USER  = os.getenv("MQTT_ESP32_USER", "esp32")
+ESP32_PASS  = os.getenv("MQTT_ESP32_PASSWORD", "")
 
 received_messages = []
 
-def on_connect(client, userdata, flags, rc):
-    codes = {0: "OK", 1: "Bad protocol", 2: "Rejected ID", 3: "Broker unavailable", 4: "Bad credentials", 5: "Unauthorized"}
-    if rc == 0:
+
+def on_connect(client, userdata, flags, *args):  # FIX 1
+    rc = args[0] if args else 0
+    rc_value = rc if isinstance(rc, int) else rc.value
+    codes = {0: "OK", 1: "Bad protocol", 2: "Rejected ID",
+             3: "Broker unavailable", 4: "Bad credentials", 5: "Unauthorized"}
+    if rc_value == 0:
         print(f"✅ Conectado ao broker {BROKER_HOST}:{BROKER_PORT}")
         client.subscribe(TOPIC, qos=1)
         print(f"📡 Subscrito em: {TOPIC}")
     else:
-        print(f"❌ Falha na conexão: {codes.get(rc, rc)}")
+        print(f"❌ Falha na conexão: {codes.get(rc_value, rc_value)}")
         sys.exit(1)
+
 
 def on_message(client, userdata, msg):
     print(f"\n📥 Mensagem recebida:")
@@ -50,8 +54,10 @@ def on_message(client, userdata, msg):
         print(f"   Payload (raw): {msg.payload}")
     received_messages.append(msg)
 
+
 def on_publish(client, userdata, mid):
     print(f"✅ Publicação confirmada (mid={mid})")
+
 
 def main():
     print("=" * 55)
@@ -63,9 +69,9 @@ def main():
 
     client = mqtt.Client(client_id="test_esp32_simulator", protocol=mqtt.MQTTv311)
     client.username_pw_set(ESP32_USER, ESP32_PASS)
-    client.on_connect  = on_connect
-    client.on_message  = on_message
-    client.on_publish  = on_publish
+    client.on_connect = on_connect
+    client.on_message = on_message
+    client.on_publish = on_publish
 
     try:
         client.connect(BROKER_HOST, BROKER_PORT, keepalive=60)
@@ -74,9 +80,8 @@ def main():
         sys.exit(1)
 
     client.loop_start()
-    time.sleep(1)  # aguarda conexão
+    time.sleep(1)
 
-    # Publica payload simulado do ESP32 DS18B20
     payload = {
         "temperature": 23.5,
         "unit": "C",
@@ -94,9 +99,10 @@ def main():
     client.disconnect()
 
     if received_messages:
-        print(f"\n✅ Teste concluído com sucesso! {len(received_messages)} mensagem(ns) recebida(s).")
+        print(f"\n✅ Teste concluído! {len(received_messages)} mensagem(ns) recebida(s).")
     else:
-        print("\n⚠️  Nenhuma mensagem recebida. Verifique se o broker está aceitando conexões.")
+        print("\n⚠️  Nenhuma mensagem recebida. Broker aceitou a conexão mas não roteou.")
+
 
 if __name__ == "__main__":
     main()
