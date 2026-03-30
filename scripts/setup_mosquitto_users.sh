@@ -27,5 +27,11 @@ docker run --rm \
     eclipse-mosquitto:2.0 \
     mosquitto_passwd -b /mosquitto/config/passwd "${MQTT_NODERED_USER}" "${MQTT_NODERED_PASSWORD}"
 
+# FIX 2: permissão correta (Mosquitto exige que só o dono leia)
+chmod 600 "${PASSWD_FILE}"
+
+echo ""
 echo "✅ Usuários criados em ${PASSWD_FILE}"
-echo "   Reinicie o Mosquitto: docker compose restart mosquitto"
+echo "   $(wc -l < "${PASSWD_FILE}") usuário(s) registrado(s)"
+echo ""
+echo "▶  Próximo passo: docker compose up -d"

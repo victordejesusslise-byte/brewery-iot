@@ -1,7 +1,5 @@
 # ─────────────────────────────────────────────────────────────────
 #  BREWERY IoT — docker-compose.yml
-#  Serviços: Mosquitto (MQTT Broker) + Node-RED (ETL)
-#  Uso: docker compose up -d
 # ─────────────────────────────────────────────────────────────────
 
 services:
@@ -11,26 +9,27 @@ services:
     image: eclipse-mosquitto:2.0
     container_name: brewery_mosquitto
     restart: unless-stopped
-    user: "1883:1883"                               # FIX 1: evita chown read-only error
     ports:
       - "${MQTT_BROKER_PORT:-1883}:1883"
       - "${MQTT_WS_PORT:-9001}:9001"
+    environment:
+      - MQTT_NODERED_USER=${MQTT_NODERED_USER}
+      - MQTT_NODERED_PASSWORD=${MQTT_NODERED_PASSWORD}
     volumes:
       - ./mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
-      - ./mosquitto/config/passwd:/mosquitto/config/passwd:ro   # FIX 2: faltava este mount
+      - ./mosquitto/config/passwd:/mosquitto/config/passwd:ro
       - ./mosquitto/data:/mosquitto/data
       - ./mosquitto/log:/mosquitto/log
-    healthcheck:
-      test: ["CMD", "mosquitto_sub", "-t", "$$SYS/#", "-C", "1",
-             "-u", "${MQTT_NODERED_USER}", "-P", "${MQTT_NODERED_PASSWORD}", "--quiet"]
+    healthcheck:                                          # FIX 2: CMD-SHELL em array
+      test: ["CMD-SHELL", "mosquitto_sub -t '$$SYS/#' -C 1 -u \"$$MQTT_NODERED_USER\" -P \"$$MQTT_NODERED_PASSWORD\" --quiet"]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 10s
-    networks:
+    networks:                                             # FIX 1: estava faltando
       - brewery_net
 
-  # ── Node-RED (ETL + integração Google Sheets) ─────────────────
+  # ── Node-RED ─────────────────────────────────────────────────
   nodered:
     image: nodered/node-red:3.1
     container_name: brewery_nodered
@@ -42,7 +41,7 @@ services:
       - "${NODERED_PORT:-1880}:1880"
     environment:
       - TZ=America/Sao_Paulo
-      - NODE_RED_CREDENTIAL_SECRET=${NODERED_CREDENTIAL_SECRET}  # FIX 3: settings.js lê esta var
+      - NODE_RED_CREDENTIAL_SECRET=${NODERED_CREDENTIAL_SECRET}
       - MQTT_BROKER_HOST=mosquitto
       - MQTT_BROKER_PORT=${MQTT_BROKER_PORT:-1883}
       - MQTT_NODERED_USER=${MQTT_NODERED_USER}
@@ -58,7 +57,7 @@ services:
       - RETRY_MAX_ATTEMPTS=${RETRY_MAX_ATTEMPTS:-5}
       - CSV_BUFFER_PATH=${CSV_BUFFER_PATH:-/data/buffer.csv}
     volumes:
-      - ./node-red/data:/data          # único volume; flows ficam em ./node-red/data/flows/
+      - ./node-red/data:/data
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:1880"]
       interval: 30s
