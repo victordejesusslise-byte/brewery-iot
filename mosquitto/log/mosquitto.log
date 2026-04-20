@@ -1,1 +1,474 @@
-
+1776119759: mosquitto version 2.0.22 starting
+1776119759: Config loaded from /mosquitto/config/mosquitto.conf.
+1776119759: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1776119759: Opening ipv4 listen socket on port 1883.
+1776119759: Opening ipv6 listen socket on port 1883.
+1776119759: Opening websockets listen socket on port 9001.
+1776119759: mosquitto version 2.0.22 running
+1776119764: New connection from ::1:59342 on port 1883.
+1776119764: New client connected from ::1:59342 as auto-C3D71391-E167-FDCA-4F5D-09FD4CA1098E (p2, c1, k60, u'nodered').
+1776119764: Client auto-C3D71391-E167-FDCA-4F5D-09FD4CA1098E closed its connection.
+1776119795: New connection from ::1:58728 on port 1883.
+1776119795: New client connected from ::1:58728 as auto-96320289-CB73-9269-5360-3F161ABD9ADD (p2, c1, k60, u'nodered').
+1776119795: Client auto-96320289-CB73-9269-5360-3F161ABD9ADD closed its connection.
+1776119825: New connection from ::1:33238 on port 1883.
+1776119825: New client connected from ::1:33238 as auto-476E0B20-8FA7-C849-21F5-3FE0D1FC1817 (p2, c1, k60, u'nodered').
+1776119825: Client auto-476E0B20-8FA7-C849-21F5-3FE0D1FC1817 closed its connection.
+1776119855: New connection from ::1:50970 on port 1883.
+1776119855: New client connected from ::1:50970 as auto-264CFEF5-D024-0223-7C8C-F8E0F5556FF7 (p2, c1, k60, u'nodered').
+1776119855: Client auto-264CFEF5-D024-0223-7C8C-F8E0F5556FF7 closed its connection.
+1776119886: New connection from ::1:41600 on port 1883.
+1776119886: New client connected from ::1:41600 as auto-785BEE3B-704E-3806-FAA7-ADB0ECEC4E20 (p2, c1, k60, u'nodered').
+1776119886: Client auto-785BEE3B-704E-3806-FAA7-ADB0ECEC4E20 closed its connection.
+1776119916: New connection from ::1:46546 on port 1883.
+1776119916: New client connected from ::1:46546 as auto-68D13702-E73B-A205-29CD-C49C5CFFB367 (p2, c1, k60, u'nodered').
+1776119916: Client auto-68D13702-E73B-A205-29CD-C49C5CFFB367 closed its connection.
+1776119946: New connection from ::1:35454 on port 1883.
+1776119946: New client connected from ::1:35454 as auto-D36AD82F-025C-E1E8-2D12-0470E278E703 (p2, c1, k60, u'nodered').
+1776119946: Client auto-D36AD82F-025C-E1E8-2D12-0470E278E703 closed its connection.
+1776119976: New connection from ::1:45478 on port 1883.
+1776119976: New client connected from ::1:45478 as auto-441B0226-185F-20CC-0B77-C6B12963DE96 (p2, c1, k60, u'nodered').
+1776119976: Client auto-441B0226-185F-20CC-0B77-C6B12963DE96 closed its connection.
+1776120007: New connection from ::1:43432 on port 1883.
+1776120007: New client connected from ::1:43432 as auto-C469E37E-9EED-DBE3-D063-081A48D69C70 (p2, c1, k60, u'nodered').
+1776120007: Client auto-C469E37E-9EED-DBE3-D063-081A48D69C70 closed its connection.
+1776120037: New connection from ::1:56922 on port 1883.
+1776120037: New client connected from ::1:56922 as auto-C023076C-2F36-36D3-D41C-F3F7C083F8FB (p2, c1, k60, u'nodered').
+1776120037: Client auto-C023076C-2F36-36D3-D41C-F3F7C083F8FB closed its connection.
+1776120067: New connection from ::1:40762 on port 1883.
+1776120067: New client connected from ::1:40762 as auto-EB7F1236-22C0-3EE6-2441-4738A1F318D4 (p2, c1, k60, u'nodered').
+1776120067: Client auto-EB7F1236-22C0-3EE6-2441-4738A1F318D4 closed its connection.
+1776120098: New connection from ::1:52018 on port 1883.
+1776120098: New client connected from ::1:52018 as auto-7DEC9EF2-E266-7605-9ADA-254F1256CAF7 (p2, c1, k60, u'nodered').
+1776120098: Client auto-7DEC9EF2-E266-7605-9ADA-254F1256CAF7 closed its connection.
+1776120128: New connection from ::1:32960 on port 1883.
+1776120128: New client connected from ::1:32960 as auto-945B876F-A833-B3C1-78CA-721F0450C284 (p2, c1, k60, u'nodered').
+1776120128: Client auto-945B876F-A833-B3C1-78CA-721F0450C284 closed its connection.
+1776120158: New connection from ::1:34414 on port 1883.
+1776120158: New client connected from ::1:34414 as auto-9073EB6A-C94D-9655-DCC3-A891C66EF325 (p2, c1, k60, u'nodered').
+1776120158: Client auto-9073EB6A-C94D-9655-DCC3-A891C66EF325 closed its connection.
+1776120189: New connection from ::1:50280 on port 1883.
+1776120189: New client connected from ::1:50280 as auto-CED8EF53-A202-B237-9DF0-449875036DA3 (p2, c1, k60, u'nodered').
+1776120189: Client auto-CED8EF53-A202-B237-9DF0-449875036DA3 closed its connection.
+1776120219: New connection from ::1:60332 on port 1883.
+1776120219: New client connected from ::1:60332 as auto-12A3CCF0-C12D-8FCA-110E-1428D6AA5D72 (p2, c1, k60, u'nodered').
+1776120219: Client auto-12A3CCF0-C12D-8FCA-110E-1428D6AA5D72 closed its connection.
+1776120249: New connection from ::1:41104 on port 1883.
+1776120249: New client connected from ::1:41104 as auto-5E24A4B0-F823-6C16-4E85-FC7E5FF977C1 (p2, c1, k60, u'nodered').
+1776120249: Client auto-5E24A4B0-F823-6C16-4E85-FC7E5FF977C1 closed its connection.
+1776120279: New connection from ::1:48816 on port 1883.
+1776120279: New client connected from ::1:48816 as auto-1FF63F1D-60D9-D526-5105-F693313D7DDA (p2, c1, k60, u'nodered').
+1776120279: Client auto-1FF63F1D-60D9-D526-5105-F693313D7DDA closed its connection.
+1776120310: New connection from ::1:35770 on port 1883.
+1776120310: New client connected from ::1:35770 as auto-763F416A-4128-60F5-CC41-CC4E7FB4E94D (p2, c1, k60, u'nodered').
+1776120310: Client auto-763F416A-4128-60F5-CC41-CC4E7FB4E94D closed its connection.
+1776120340: New connection from ::1:55958 on port 1883.
+1776120340: New client connected from ::1:55958 as auto-142B8748-9632-F18B-5D6A-1B096DCBA66D (p2, c1, k60, u'nodered').
+1776120340: Client auto-142B8748-9632-F18B-5D6A-1B096DCBA66D closed its connection.
+1776120371: New connection from ::1:35168 on port 1883.
+1776120371: New client connected from ::1:35168 as auto-7D49AAE9-9B92-3C06-6162-2F8FB6C750CE (p2, c1, k60, u'nodered').
+1776120371: Client auto-7D49AAE9-9B92-3C06-6162-2F8FB6C750CE closed its connection.
+1776120401: New connection from ::1:55612 on port 1883.
+1776120401: New client connected from ::1:55612 as auto-18C8353C-421E-7256-548E-D688446EA598 (p2, c1, k60, u'nodered').
+1776120401: Client auto-18C8353C-421E-7256-548E-D688446EA598 closed its connection.
+1776120431: New connection from ::1:53220 on port 1883.
+1776120431: New client connected from ::1:53220 as auto-AFEB8414-74B6-7985-895D-8ACE5CB65B4D (p2, c1, k60, u'nodered').
+1776120431: Client auto-AFEB8414-74B6-7985-895D-8ACE5CB65B4D closed its connection.
+1776120461: New connection from ::1:36480 on port 1883.
+1776120461: New client connected from ::1:36480 as auto-7A9D28B7-C520-0BC0-6D52-17A080B6DBD1 (p2, c1, k60, u'nodered').
+1776120461: Client auto-7A9D28B7-C520-0BC0-6D52-17A080B6DBD1 closed its connection.
+1776120492: New connection from ::1:49856 on port 1883.
+1776120492: New client connected from ::1:49856 as auto-F80D450B-B9F0-37D3-8620-E681542F4A37 (p2, c1, k60, u'nodered').
+1776120492: Client auto-F80D450B-B9F0-37D3-8620-E681542F4A37 closed its connection.
+1776120522: New connection from ::1:36534 on port 1883.
+1776120522: New client connected from ::1:36534 as auto-C774C078-72E6-36D0-B8D1-9C9DF8286169 (p2, c1, k60, u'nodered').
+1776120522: Client auto-C774C078-72E6-36D0-B8D1-9C9DF8286169 closed its connection.
+1776120552: New connection from ::1:56858 on port 1883.
+1776120552: New client connected from ::1:56858 as auto-4238E081-4F6C-6682-5F20-9416773463F4 (p2, c1, k60, u'nodered').
+1776120552: Client auto-4238E081-4F6C-6682-5F20-9416773463F4 closed its connection.
+1776120583: New connection from ::1:34918 on port 1883.
+1776120583: New client connected from ::1:34918 as auto-F4D4F88F-DFD9-1C22-3BC2-081B17CE0FD2 (p2, c1, k60, u'nodered').
+1776120583: Client auto-F4D4F88F-DFD9-1C22-3BC2-081B17CE0FD2 closed its connection.
+1776120613: New connection from ::1:33520 on port 1883.
+1776120613: New client connected from ::1:33520 as auto-6014C2C8-9709-B516-8C2A-433587D4BB84 (p2, c1, k60, u'nodered').
+1776120613: Client auto-6014C2C8-9709-B516-8C2A-433587D4BB84 closed its connection.
+1776120643: New connection from ::1:48702 on port 1883.
+1776120643: New client connected from ::1:48702 as auto-804D26DB-8218-DD8B-4F75-DF35435FC196 (p2, c1, k60, u'nodered').
+1776120643: Client auto-804D26DB-8218-DD8B-4F75-DF35435FC196 closed its connection.
+1776120674: New connection from ::1:38792 on port 1883.
+1776120674: New client connected from ::1:38792 as auto-9261BE22-28DA-18FE-4A49-0A5081259469 (p2, c1, k60, u'nodered').
+1776120674: Client auto-9261BE22-28DA-18FE-4A49-0A5081259469 closed its connection.
+1776120704: New connection from ::1:43032 on port 1883.
+1776120704: New client connected from ::1:43032 as auto-1A57A3C6-78F5-7BA8-C13B-4FF983168405 (p2, c1, k60, u'nodered').
+1776120704: Client auto-1A57A3C6-78F5-7BA8-C13B-4FF983168405 closed its connection.
+1776120734: New connection from ::1:38432 on port 1883.
+1776120734: New client connected from ::1:38432 as auto-46939F0A-5706-A26D-B4F7-86615F8CA8B0 (p2, c1, k60, u'nodered').
+1776120734: Client auto-46939F0A-5706-A26D-B4F7-86615F8CA8B0 closed its connection.
+1776120765: New connection from ::1:52464 on port 1883.
+1776120765: New client connected from ::1:52464 as auto-15D19977-C816-A0E2-FA09-DC7715E6C409 (p2, c1, k60, u'nodered').
+1776120765: Client auto-15D19977-C816-A0E2-FA09-DC7715E6C409 closed its connection.
+1776120795: New connection from ::1:58584 on port 1883.
+1776120795: New client connected from ::1:58584 as auto-5567748A-2BDF-A703-1609-8BD39CF3B351 (p2, c1, k60, u'nodered').
+1776120795: Client auto-5567748A-2BDF-A703-1609-8BD39CF3B351 closed its connection.
+1776120825: New connection from ::1:57342 on port 1883.
+1776120825: New client connected from ::1:57342 as auto-95D46963-72A0-FB83-1EAA-FD58C8D002DE (p2, c1, k60, u'nodered').
+1776120825: Client auto-95D46963-72A0-FB83-1EAA-FD58C8D002DE closed its connection.
+1776120855: New connection from ::1:35032 on port 1883.
+1776120855: New client connected from ::1:35032 as auto-D2EE4EBD-3B84-9F01-0602-7F42BA062BB8 (p2, c1, k60, u'nodered').
+1776120856: Client auto-D2EE4EBD-3B84-9F01-0602-7F42BA062BB8 closed its connection.
+1776120886: New connection from ::1:46246 on port 1883.
+1776120886: New client connected from ::1:46246 as auto-5D5CA126-707D-4995-FE0F-91F4BBD8D13A (p2, c1, k60, u'nodered').
+1776120886: Client auto-5D5CA126-707D-4995-FE0F-91F4BBD8D13A closed its connection.
+1776120916: New connection from ::1:50992 on port 1883.
+1776120916: New client connected from ::1:50992 as auto-9CC86104-2DC7-7451-4383-E876CEF155A1 (p2, c1, k60, u'nodered').
+1776120916: Client auto-9CC86104-2DC7-7451-4383-E876CEF155A1 closed its connection.
+1776120946: New connection from ::1:47098 on port 1883.
+1776120946: New client connected from ::1:47098 as auto-2E377C38-CD8A-C5AB-1C4B-455CD595A558 (p2, c1, k60, u'nodered').
+1776120946: Client auto-2E377C38-CD8A-C5AB-1C4B-455CD595A558 closed its connection.
+1776120977: New connection from ::1:43322 on port 1883.
+1776120977: New client connected from ::1:43322 as auto-655CCDD6-2836-4757-3B45-02435846D491 (p2, c1, k60, u'nodered').
+1776120977: Client auto-655CCDD6-2836-4757-3B45-02435846D491 closed its connection.
+1776121007: New connection from ::1:56170 on port 1883.
+1776121007: New client connected from ::1:56170 as auto-94518144-A628-E245-8E05-3B78A0EE4546 (p2, c1, k60, u'nodered').
+1776121007: Client auto-94518144-A628-E245-8E05-3B78A0EE4546 closed its connection.
+1776121037: New connection from ::1:47490 on port 1883.
+1776121037: New client connected from ::1:47490 as auto-B11DB655-0453-2481-5041-15C6C924D07C (p2, c1, k60, u'nodered').
+1776121037: Client auto-B11DB655-0453-2481-5041-15C6C924D07C closed its connection.
+1776121068: New connection from ::1:50830 on port 1883.
+1776121068: New client connected from ::1:50830 as auto-86617E31-38DD-0AF0-1FBD-827ABAA14D3D (p2, c1, k60, u'nodered').
+1776121068: Client auto-86617E31-38DD-0AF0-1FBD-827ABAA14D3D closed its connection.
+1776121098: New connection from ::1:40678 on port 1883.
+1776121098: New client connected from ::1:40678 as auto-8CC6512E-67E1-E53B-1A37-1329217076EA (p2, c1, k60, u'nodered').
+1776121098: Client auto-8CC6512E-67E1-E53B-1A37-1329217076EA closed its connection.
+1776121128: New connection from ::1:41034 on port 1883.
+1776121128: New client connected from ::1:41034 as auto-89CF3BE0-049E-5059-2ABB-A6A8CD2BD50B (p2, c1, k60, u'nodered').
+1776121128: Client auto-89CF3BE0-049E-5059-2ABB-A6A8CD2BD50B closed its connection.
+1776121158: New connection from ::1:45554 on port 1883.
+1776121158: New client connected from ::1:45554 as auto-7E063451-9364-1063-BE21-5123C2C2C49A (p2, c1, k60, u'nodered').
+1776121158: Client auto-7E063451-9364-1063-BE21-5123C2C2C49A closed its connection.
+1776121189: New connection from ::1:36274 on port 1883.
+1776121189: New client connected from ::1:36274 as auto-6A345AF3-9082-3CCF-06DA-443D91AFD785 (p2, c1, k60, u'nodered').
+1776121189: Client auto-6A345AF3-9082-3CCF-06DA-443D91AFD785 closed its connection.
+1776121219: New connection from ::1:42766 on port 1883.
+1776121219: New client connected from ::1:42766 as auto-9FD8B885-2FE2-BA60-BF6C-14005CC95930 (p2, c1, k60, u'nodered').
+1776121219: Client auto-9FD8B885-2FE2-BA60-BF6C-14005CC95930 closed its connection.
+1776121249: New connection from ::1:39932 on port 1883.
+1776121249: New client connected from ::1:39932 as auto-4111C15A-CD4E-3DD9-C990-D3ED18FFF7F8 (p2, c1, k60, u'nodered').
+1776121249: Client auto-4111C15A-CD4E-3DD9-C990-D3ED18FFF7F8 closed its connection.
+1776121280: New connection from ::1:47686 on port 1883.
+1776121280: New client connected from ::1:47686 as auto-3200A3B7-F547-F44E-55F6-6D90CA587F69 (p2, c1, k60, u'nodered').
+1776121280: Client auto-3200A3B7-F547-F44E-55F6-6D90CA587F69 closed its connection.
+1776121310: New connection from ::1:37974 on port 1883.
+1776121310: New client connected from ::1:37974 as auto-678F0C03-40DE-7F4C-6B6B-922120C146A1 (p2, c1, k60, u'nodered').
+1776121310: Client auto-678F0C03-40DE-7F4C-6B6B-922120C146A1 closed its connection.
+1776121340: New connection from ::1:38346 on port 1883.
+1776121340: New client connected from ::1:38346 as auto-4F4B0921-4394-2F32-DD48-056AB6D0F31B (p2, c1, k60, u'nodered').
+1776121340: Client auto-4F4B0921-4394-2F32-DD48-056AB6D0F31B closed its connection.
+1776121370: New connection from ::1:40894 on port 1883.
+1776121370: New client connected from ::1:40894 as auto-CFADC643-C02D-08F6-BDE5-8DAF7611B6C8 (p2, c1, k60, u'nodered').
+1776121370: Client auto-CFADC643-C02D-08F6-BDE5-8DAF7611B6C8 closed its connection.
+1776121401: New connection from ::1:48850 on port 1883.
+1776121401: New client connected from ::1:48850 as auto-0FF0018D-EBAC-3BB5-94AE-11240E05E716 (p2, c1, k60, u'nodered').
+1776121401: Client auto-0FF0018D-EBAC-3BB5-94AE-11240E05E716 closed its connection.
+1776121431: New connection from ::1:59118 on port 1883.
+1776121431: New client connected from ::1:59118 as auto-BEB8F081-768B-B98A-7102-8AEE46AFC648 (p2, c1, k60, u'nodered').
+1776121431: Client auto-BEB8F081-768B-B98A-7102-8AEE46AFC648 closed its connection.
+1776121461: New connection from ::1:35126 on port 1883.
+1776121461: New client connected from ::1:35126 as auto-8F0A690E-AEE9-B88E-647D-0B7FE2E4A2D4 (p2, c1, k60, u'nodered').
+1776121461: Client auto-8F0A690E-AEE9-B88E-647D-0B7FE2E4A2D4 closed its connection.
+1776121492: New connection from ::1:58364 on port 1883.
+1776121492: New client connected from ::1:58364 as auto-E303418D-22D4-939D-5A23-123282BE6875 (p2, c1, k60, u'nodered').
+1776121492: Client auto-E303418D-22D4-939D-5A23-123282BE6875 closed its connection.
+1776121522: New connection from ::1:44712 on port 1883.
+1776121522: New client connected from ::1:44712 as auto-B9303BFD-12D4-8CC3-28E6-80B7ADF43AA6 (p2, c1, k60, u'nodered').
+1776121522: Client auto-B9303BFD-12D4-8CC3-28E6-80B7ADF43AA6 closed its connection.
+1776121552: New connection from ::1:59686 on port 1883.
+1776121552: New client connected from ::1:59686 as auto-8EE658BB-A78A-EA02-8F9C-709314911C25 (p2, c1, k60, u'nodered').
+1776121552: Client auto-8EE658BB-A78A-EA02-8F9C-709314911C25 closed its connection.
+1776121560: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776121582: New connection from ::1:57150 on port 1883.
+1776121582: New client connected from ::1:57150 as auto-5240ACB2-4066-0DB6-4656-614ACE61B39C (p2, c1, k60, u'nodered').
+1776121583: Client auto-5240ACB2-4066-0DB6-4656-614ACE61B39C closed its connection.
+1776121613: New connection from ::1:48698 on port 1883.
+1776121613: New client connected from ::1:48698 as auto-72CF88BC-82BF-B03A-C117-8E548CAFC51C (p2, c1, k60, u'nodered').
+1776121613: Client auto-72CF88BC-82BF-B03A-C117-8E548CAFC51C closed its connection.
+1776121643: New connection from ::1:51822 on port 1883.
+1776121643: New client connected from ::1:51822 as auto-B5B1679B-A54D-A343-3B8D-F6D72195B59D (p2, c1, k60, u'nodered').
+1776121643: Client auto-B5B1679B-A54D-A343-3B8D-F6D72195B59D closed its connection.
+1776121674: New connection from ::1:59836 on port 1883.
+1776121674: New client connected from ::1:59836 as auto-B8DB8E2F-6436-4C08-3E7D-F466061AC21E (p2, c1, k60, u'nodered').
+1776121674: Client auto-B8DB8E2F-6436-4C08-3E7D-F466061AC21E closed its connection.
+1776121704: New connection from ::1:43118 on port 1883.
+1776121704: New client connected from ::1:43118 as auto-2C1EFA24-182A-4260-0CEF-9CE9E2B50B71 (p2, c1, k60, u'nodered').
+1776121704: Client auto-2C1EFA24-182A-4260-0CEF-9CE9E2B50B71 closed its connection.
+1776121734: New connection from ::1:44616 on port 1883.
+1776121734: New client connected from ::1:44616 as auto-3D999EDD-2369-61C1-F4C9-10B69270B1E0 (p2, c1, k60, u'nodered').
+1776121734: Client auto-3D999EDD-2369-61C1-F4C9-10B69270B1E0 closed its connection.
+1776121764: New connection from ::1:34310 on port 1883.
+1776121765: New client connected from ::1:34310 as auto-B73F48AA-6029-4DC5-70FC-BF5B7C29BE76 (p2, c1, k60, u'nodered').
+1776121765: Client auto-B73F48AA-6029-4DC5-70FC-BF5B7C29BE76 closed its connection.
+1776121795: New connection from ::1:47234 on port 1883.
+1776121795: New client connected from ::1:47234 as auto-4DEE84F4-5B7A-545E-28A9-F3D4D5FC24EF (p2, c1, k60, u'nodered').
+1776121795: Client auto-4DEE84F4-5B7A-545E-28A9-F3D4D5FC24EF closed its connection.
+1776121825: New connection from ::1:48006 on port 1883.
+1776121825: New client connected from ::1:48006 as auto-9459DE02-6B55-8EB9-BB1E-9E65713F63E6 (p2, c1, k60, u'nodered').
+1776121825: Client auto-9459DE02-6B55-8EB9-BB1E-9E65713F63E6 closed its connection.
+1776121856: New connection from ::1:47588 on port 1883.
+1776121856: New client connected from ::1:47588 as auto-E4AB35D8-2898-3B0C-4F5E-8CBD027C45A2 (p2, c1, k60, u'nodered').
+1776121856: Client auto-E4AB35D8-2898-3B0C-4F5E-8CBD027C45A2 closed its connection.
+1776121886: New connection from ::1:55982 on port 1883.
+1776121886: New client connected from ::1:55982 as auto-99B96D06-8733-879A-819C-31FCD762438F (p2, c1, k60, u'nodered').
+1776121886: Client auto-99B96D06-8733-879A-819C-31FCD762438F closed its connection.
+1776121916: New connection from ::1:49578 on port 1883.
+1776121916: New client connected from ::1:49578 as auto-7B9F9586-B54A-2B21-117B-13A1AACBCD86 (p2, c1, k60, u'nodered').
+1776121916: Client auto-7B9F9586-B54A-2B21-117B-13A1AACBCD86 closed its connection.
+1776121947: New connection from ::1:38670 on port 1883.
+1776121947: New client connected from ::1:38670 as auto-BB963909-A5A7-E083-E663-BCECAE1FFA66 (p2, c1, k60, u'nodered').
+1776121947: Client auto-BB963909-A5A7-E083-E663-BCECAE1FFA66 closed its connection.
+1776121976: New connection from ::1:37610 on port 1883.
+1776121976: New client connected from ::1:37610 as auto-C525ECD8-2F7A-1A72-0BD9-C7369E7587E2 (p2, c1, k60, u'esp32').
+1776121976: Client auto-C525ECD8-2F7A-1A72-0BD9-C7369E7587E2 disconnected.
+1776121977: New connection from ::1:37612 on port 1883.
+1776121977: New client connected from ::1:37612 as auto-29FDA2C9-B211-672D-4E77-B99B4445F289 (p2, c1, k60, u'nodered').
+1776121977: Client auto-29FDA2C9-B211-672D-4E77-B99B4445F289 closed its connection.
+1776121993: New connection from ::1:40280 on port 1883.
+1776121993: New client connected from ::1:40280 as auto-550E2247-81EE-4BF7-9748-A19F806FF2FF (p2, c1, k60, u'nodered').
+1776122007: New connection from ::1:60202 on port 1883.
+1776122007: New client connected from ::1:60202 as auto-79E180B2-5E03-95F7-92E6-6343007900FD (p2, c1, k60, u'nodered').
+1776122007: Client auto-79E180B2-5E03-95F7-92E6-6343007900FD closed its connection.
+1776122037: New connection from ::1:51850 on port 1883.
+1776122037: New client connected from ::1:51850 as auto-203E1398-5727-94DE-33D9-7EE9829AA890 (p2, c1, k60, u'nodered').
+1776122038: Client auto-203E1398-5727-94DE-33D9-7EE9829AA890 closed its connection.
+1776122068: New connection from ::1:46866 on port 1883.
+1776122068: New client connected from ::1:46866 as auto-D749C8D3-5C8B-52C0-CC4E-169A28062422 (p2, c1, k60, u'nodered').
+1776122068: Client auto-D749C8D3-5C8B-52C0-CC4E-169A28062422 closed its connection.
+1776122071: New connection from ::1:49334 on port 1883.
+1776122071: New client connected from ::1:49334 as auto-A6745854-22CB-E86A-E83E-DCADA74D6E98 (p2, c1, k60, u'esp32').
+1776122071: Client auto-A6745854-22CB-E86A-E83E-DCADA74D6E98 disconnected.
+1776122073: New connection from ::1:49348 on port 1883.
+1776122073: New client connected from ::1:49348 as auto-9BFE132E-4C12-3345-C4CF-9B24310F494D (p2, c1, k60, u'nodered').
+1776122098: New connection from ::1:55262 on port 1883.
+1776122098: New client connected from ::1:55262 as auto-DD0269B9-639E-8BC4-A22A-8780E43A3313 (p2, c1, k60, u'nodered').
+1776122098: Client auto-DD0269B9-639E-8BC4-A22A-8780E43A3313 closed its connection.
+1776122128: New connection from ::1:58468 on port 1883.
+1776122128: New client connected from ::1:58468 as auto-23C728B1-D34C-A4CE-E34F-EDD662F1B81F (p2, c1, k60, u'nodered').
+1776122128: Client auto-23C728B1-D34C-A4CE-E34F-EDD662F1B81F closed its connection.
+1776122159: New connection from ::1:53152 on port 1883.
+1776122159: New client connected from ::1:53152 as auto-ECE48E2A-FCDD-BFC0-F108-E011DBB85317 (p2, c1, k60, u'nodered').
+1776122159: Client auto-ECE48E2A-FCDD-BFC0-F108-E011DBB85317 closed its connection.
+1776122161: New connection from ::1:53320 on port 1883.
+1776122161: New client connected from ::1:53320 as auto-8D72A4A5-CE8A-0AC3-0EF6-4B788E1BF966 (p2, c1, k60, u'nodered').
+1776122189: New connection from ::1:39840 on port 1883.
+1776122189: New client connected from ::1:39840 as auto-4E2319CC-988E-DC09-F854-B654D23F896A (p2, c1, k60, u'nodered').
+1776122189: Client auto-4E2319CC-988E-DC09-F854-B654D23F896A closed its connection.
+1776122192: New connection from ::1:47788 on port 1883.
+1776122193: New client connected from ::1:47788 as auto-350CDEF4-B905-D101-C073-2A21DA2D9C05 (p2, c1, k60, u'esp32').
+1776122193: Client auto-350CDEF4-B905-D101-C073-2A21DA2D9C05 disconnected.
+1776122219: New connection from ::1:51468 on port 1883.
+1776122219: New client connected from ::1:51468 as auto-27D40232-09D4-C16F-A092-A444DDD43571 (p2, c1, k60, u'nodered').
+1776122219: Client auto-27D40232-09D4-C16F-A092-A444DDD43571 closed its connection.
+1776122249: New connection from ::1:35414 on port 1883.
+1776122249: New client connected from ::1:35414 as auto-3CC1280A-4097-7532-3C91-BB0315A4080B (p2, c1, k60, u'nodered').
+1776122249: Client auto-3CC1280A-4097-7532-3C91-BB0315A4080B closed its connection.
+1776122280: New connection from ::1:60960 on port 1883.
+1776122280: New client connected from ::1:60960 as auto-C50DE4E9-AACE-045B-42AC-DA4976305EA5 (p2, c1, k60, u'nodered').
+1776122280: Client auto-C50DE4E9-AACE-045B-42AC-DA4976305EA5 closed its connection.
+1776122310: New connection from ::1:43836 on port 1883.
+1776122310: New client connected from ::1:43836 as auto-FEB5702E-51A0-32AB-4289-1F8A53361D7A (p2, c1, k60, u'nodered').
+1776122310: Client auto-FEB5702E-51A0-32AB-4289-1F8A53361D7A closed its connection.
+1776122340: New connection from ::1:56744 on port 1883.
+1776122340: New client connected from ::1:56744 as auto-07D64EF8-6061-E966-205D-21BD43CC817D (p2, c1, k60, u'nodered').
+1776122340: Client auto-07D64EF8-6061-E966-205D-21BD43CC817D closed its connection.
+1776122371: New connection from ::1:34746 on port 1883.
+1776122371: New client connected from ::1:34746 as auto-E7787B67-46DA-D7A8-83A2-C72EEEC2BA11 (p2, c1, k60, u'nodered').
+1776122371: Client auto-E7787B67-46DA-D7A8-83A2-C72EEEC2BA11 closed its connection.
+1776122401: New connection from ::1:52174 on port 1883.
+1776122401: New client connected from ::1:52174 as auto-5AB4FB29-8350-61B5-15C8-86B3916CC265 (p2, c1, k60, u'nodered').
+1776122401: Client auto-5AB4FB29-8350-61B5-15C8-86B3916CC265 closed its connection.
+1776122431: New connection from ::1:54508 on port 1883.
+1776122431: New client connected from ::1:54508 as auto-A629479F-468D-234D-1161-EFABEEA2F884 (p2, c1, k60, u'nodered').
+1776122431: Client auto-A629479F-468D-234D-1161-EFABEEA2F884 closed its connection.
+1776122433: New connection from ::1:54516 on port 1883.
+1776122433: New client connected from ::1:54516 as auto-0788A2A2-98E8-A0CB-2BFF-9C78B98DD202 (p2, c1, k60, u'esp32').
+1776122433: Client auto-0788A2A2-98E8-A0CB-2BFF-9C78B98DD202 disconnected.
+1776122462: New connection from ::1:36858 on port 1883.
+1776122462: New client connected from ::1:36858 as auto-3AEE0763-3533-249B-43BB-BC7B5B1A2389 (p2, c1, k60, u'nodered').
+1776122462: Client auto-3AEE0763-3533-249B-43BB-BC7B5B1A2389 closed its connection.
+1776122492: New connection from ::1:57246 on port 1883.
+1776122492: New client connected from ::1:57246 as auto-11F47296-BCF0-5D89-A60D-33B9F281BC14 (p2, c1, k60, u'nodered').
+1776122492: Client auto-11F47296-BCF0-5D89-A60D-33B9F281BC14 closed its connection.
+1776122522: New connection from ::1:38428 on port 1883.
+1776122522: New client connected from ::1:38428 as auto-7C9867C0-ABFD-9E72-36E0-93D83CD5EC85 (p2, c1, k60, u'nodered').
+1776122523: Client auto-7C9867C0-ABFD-9E72-36E0-93D83CD5EC85 closed its connection.
+1776122553: New connection from ::1:55008 on port 1883.
+1776122553: New client connected from ::1:55008 as auto-392AFDB5-66BB-9E34-96F9-46BA0F6DC8F1 (p2, c1, k60, u'nodered').
+1776122553: Client auto-392AFDB5-66BB-9E34-96F9-46BA0F6DC8F1 closed its connection.
+1776122583: New connection from ::1:49786 on port 1883.
+1776122583: New client connected from ::1:49786 as auto-F11176FA-9B5F-9782-1D72-9F79B1D26C76 (p2, c1, k60, u'nodered').
+1776122583: Client auto-F11176FA-9B5F-9782-1D72-9F79B1D26C76 closed its connection.
+1776122613: New connection from ::1:41406 on port 1883.
+1776122613: New client connected from ::1:41406 as auto-AA821EEC-759D-7682-BA0F-C30F2DF88BBE (p2, c1, k60, u'nodered').
+1776122613: Client auto-AA821EEC-759D-7682-BA0F-C30F2DF88BBE closed its connection.
+1776122644: New connection from ::1:56642 on port 1883.
+1776122644: New client connected from ::1:56642 as auto-1F086D91-242B-FA5C-29FC-47F3E3D7D983 (p2, c1, k60, u'nodered').
+1776122644: Client auto-1F086D91-242B-FA5C-29FC-47F3E3D7D983 closed its connection.
+1776122674: New connection from ::1:57618 on port 1883.
+1776122674: New client connected from ::1:57618 as auto-2ACA72B9-70D8-8470-261D-DC729E29B753 (p2, c1, k60, u'nodered').
+1776122674: Client auto-2ACA72B9-70D8-8470-261D-DC729E29B753 closed its connection.
+1776122704: New connection from ::1:58112 on port 1883.
+1776122704: New client connected from ::1:58112 as auto-F788A8CF-8028-09A2-7BF0-319C0A62D79B (p2, c1, k60, u'nodered').
+1776122704: Client auto-F788A8CF-8028-09A2-7BF0-319C0A62D79B closed its connection.
+1776122735: New connection from ::1:59722 on port 1883.
+1776122735: New client connected from ::1:59722 as auto-11F748E7-A44E-91EF-A34F-EA92735B691D (p2, c1, k60, u'nodered').
+1776122735: Client auto-11F748E7-A44E-91EF-A34F-EA92735B691D closed its connection.
+1776122765: New connection from ::1:56512 on port 1883.
+1776122765: New client connected from ::1:56512 as auto-75709E9A-D0A8-D866-CFBD-D6820700B5F2 (p2, c1, k60, u'nodered').
+1776122765: Client auto-75709E9A-D0A8-D866-CFBD-D6820700B5F2 closed its connection.
+1776122795: New connection from ::1:53194 on port 1883.
+1776122795: New client connected from ::1:53194 as auto-1AE08017-D833-C244-E873-95841B75ECC0 (p2, c1, k60, u'nodered').
+1776122795: Client auto-1AE08017-D833-C244-E873-95841B75ECC0 closed its connection.
+1776122825: New connection from ::1:45160 on port 1883.
+1776122825: New client connected from ::1:45160 as auto-7839C5F7-450C-B48A-E139-ADE3DD4F9FC0 (p2, c1, k60, u'nodered').
+1776122826: Client auto-7839C5F7-450C-B48A-E139-ADE3DD4F9FC0 closed its connection.
+1776122856: New connection from ::1:36234 on port 1883.
+1776122856: New client connected from ::1:36234 as auto-72735CF3-3FEE-2E62-0896-05197EC6B310 (p2, c1, k60, u'nodered').
+1776122856: Client auto-72735CF3-3FEE-2E62-0896-05197EC6B310 closed its connection.
+1776122886: New connection from ::1:47246 on port 1883.
+1776122886: New client connected from ::1:47246 as auto-EBE600D4-3D21-5777-84D0-BEC43E4191CB (p2, c1, k60, u'nodered').
+1776122886: Client auto-EBE600D4-3D21-5777-84D0-BEC43E4191CB closed its connection.
+1776122917: New connection from ::1:54060 on port 1883.
+1776122917: New client connected from ::1:54060 as auto-63AC8DAF-3B1A-F705-56B3-DE6D7EA8B364 (p2, c1, k60, u'nodered').
+1776122917: Client auto-63AC8DAF-3B1A-F705-56B3-DE6D7EA8B364 closed its connection.
+1776122947: New connection from ::1:39320 on port 1883.
+1776122947: New client connected from ::1:39320 as auto-027B6BC2-3CD1-96DC-92D5-989F876086F1 (p2, c1, k60, u'nodered').
+1776122947: Client auto-027B6BC2-3CD1-96DC-92D5-989F876086F1 closed its connection.
+1776122977: New connection from ::1:37286 on port 1883.
+1776122977: New client connected from ::1:37286 as auto-BCA1260B-9751-F5FC-A34E-0D2E4EBB0E1E (p2, c1, k60, u'nodered').
+1776122977: Client auto-BCA1260B-9751-F5FC-A34E-0D2E4EBB0E1E closed its connection.
+1776123008: New connection from ::1:37770 on port 1883.
+1776123008: New client connected from ::1:37770 as auto-F34A96E1-D65D-1E01-FC80-D8E30CF5D2F3 (p2, c1, k60, u'nodered').
+1776123008: Client auto-F34A96E1-D65D-1E01-FC80-D8E30CF5D2F3 closed its connection.
+1776123017: mosquitto version 2.0.22 terminating
+1776123017: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1776123022: mosquitto version 2.0.22 starting
+1776123022: Config loaded from /mosquitto/config/mosquitto.conf.
+1776123022: Warning: File /mosquitto/config/passwd has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/passwd`.
+1776123022: Opening ipv4 listen socket on port 1883.
+1776123022: Opening ipv6 listen socket on port 1883.
+1776123022: Opening websockets listen socket on port 9001.
+1776123022: mosquitto version 2.0.22 running
+1776123028: New connection from ::1:56006 on port 1883.
+1776123028: New client connected from ::1:56006 as auto-22FCDE73-8C5A-F594-3DB5-B34FA4DCBC29 (p2, c1, k60, u'nodered').
+1776123028: Client auto-22FCDE73-8C5A-F594-3DB5-B34FA4DCBC29 closed its connection.
+1776123058: New connection from ::1:57440 on port 1883.
+1776123058: New client connected from ::1:57440 as auto-DBF83876-047C-69BF-CEE0-6B54041D0E99 (p2, c1, k60, u'nodered').
+1776123058: Client auto-DBF83876-047C-69BF-CEE0-6B54041D0E99 closed its connection.
+1776123088: New connection from ::1:50228 on port 1883.
+1776123088: New client connected from ::1:50228 as auto-BEA28BD4-635A-6067-B8DC-9C85D05170C0 (p2, c1, k60, u'nodered').
+1776123089: Client auto-BEA28BD4-635A-6067-B8DC-9C85D05170C0 closed its connection.
+1776123119: New connection from ::1:34040 on port 1883.
+1776123119: New client connected from ::1:34040 as auto-3F792383-105B-8FB7-0307-14CAEEDDB124 (p2, c1, k60, u'nodered').
+1776123119: Client auto-3F792383-105B-8FB7-0307-14CAEEDDB124 closed its connection.
+1776123149: New connection from ::1:39656 on port 1883.
+1776123149: New client connected from ::1:39656 as auto-9517AB8E-B55E-AF88-0A72-E813AFE1D2EB (p2, c1, k60, u'nodered').
+1776123149: Client auto-9517AB8E-B55E-AF88-0A72-E813AFE1D2EB closed its connection.
+1776123179: New connection from ::1:52582 on port 1883.
+1776123179: New client connected from ::1:52582 as auto-4DEC6FCC-E11D-04E2-1F59-F291D3117AAD (p2, c1, k60, u'nodered').
+1776123180: Client auto-4DEC6FCC-E11D-04E2-1F59-F291D3117AAD closed its connection.
+1776123210: New connection from ::1:57520 on port 1883.
+1776123210: New client connected from ::1:57520 as auto-520B5168-3C44-E36A-3C19-BA273CFD2183 (p2, c1, k60, u'nodered').
+1776123210: Client auto-520B5168-3C44-E36A-3C19-BA273CFD2183 closed its connection.
+1776123240: New connection from ::1:37096 on port 1883.
+1776123240: New client connected from ::1:37096 as auto-D629DB96-C3C7-767F-DFC8-EED02DB808C1 (p2, c1, k60, u'nodered').
+1776123240: Client auto-D629DB96-C3C7-767F-DFC8-EED02DB808C1 closed its connection.
+1776123270: New connection from ::1:33194 on port 1883.
+1776123270: New client connected from ::1:33194 as auto-D6B763F5-7689-3BEC-3083-CE162627F648 (p2, c1, k60, u'nodered').
+1776123270: Client auto-D6B763F5-7689-3BEC-3083-CE162627F648 closed its connection.
+1776123301: New connection from ::1:38316 on port 1883.
+1776123301: New client connected from ::1:38316 as auto-179B2ABD-0F37-6997-1F78-18752F1B73F6 (p2, c1, k60, u'nodered').
+1776123301: Client auto-179B2ABD-0F37-6997-1F78-18752F1B73F6 closed its connection.
+1776123331: New connection from ::1:56628 on port 1883.
+1776123331: New client connected from ::1:56628 as auto-D7C69A06-5170-0E25-F3CD-BA83A25BE5AD (p2, c1, k60, u'nodered').
+1776123331: Client auto-D7C69A06-5170-0E25-F3CD-BA83A25BE5AD closed its connection.
+1776123361: New connection from ::1:48026 on port 1883.
+1776123361: New client connected from ::1:48026 as auto-F754DC53-4D85-11F2-95EB-48378C95EE84 (p2, c1, k60, u'nodered').
+1776123361: Client auto-F754DC53-4D85-11F2-95EB-48378C95EE84 closed its connection.
+1776123391: New connection from ::1:37040 on port 1883.
+1776123391: New client connected from ::1:37040 as auto-F41D1D61-5B41-1F51-2928-BF26772F9DE9 (p2, c1, k60, u'nodered').
+1776123391: Client auto-F41D1D61-5B41-1F51-2928-BF26772F9DE9 closed its connection.
+1776123422: New connection from ::1:59682 on port 1883.
+1776123422: New client connected from ::1:59682 as auto-7DB84787-B1F5-2A50-07F8-5258B8497367 (p2, c1, k60, u'nodered').
+1776123422: Client auto-7DB84787-B1F5-2A50-07F8-5258B8497367 closed its connection.
+1776123452: New connection from ::1:45518 on port 1883.
+1776123452: New client connected from ::1:45518 as auto-82E7C2EF-1C73-74DC-69B5-92A7950CAD0C (p2, c1, k60, u'nodered').
+1776123452: Client auto-82E7C2EF-1C73-74DC-69B5-92A7950CAD0C closed its connection.
+1776123483: New connection from ::1:55016 on port 1883.
+1776123483: New client connected from ::1:55016 as auto-7A93705D-A223-F225-4790-29BCE1C2DF9C (p2, c1, k60, u'nodered').
+1776123483: Client auto-7A93705D-A223-F225-4790-29BCE1C2DF9C closed its connection.
+1776123513: New connection from ::1:44330 on port 1883.
+1776123513: New client connected from ::1:44330 as auto-6084F950-878C-867C-69F6-A94F0E3890BE (p2, c1, k60, u'nodered').
+1776123513: Client auto-6084F950-878C-867C-69F6-A94F0E3890BE closed its connection.
+1776123543: New connection from ::1:58166 on port 1883.
+1776123543: New client connected from ::1:58166 as auto-921D8932-BF92-47A2-B351-263670232021 (p2, c1, k60, u'nodered').
+1776123543: Client auto-921D8932-BF92-47A2-B351-263670232021 closed its connection.
+1776123574: New connection from ::1:44744 on port 1883.
+1776123574: New client connected from ::1:44744 as auto-434B3DCD-E53E-6104-7FBC-A306CEF8C681 (p2, c1, k60, u'nodered').
+1776123574: Client auto-434B3DCD-E53E-6104-7FBC-A306CEF8C681 closed its connection.
+1776123604: New connection from ::1:34624 on port 1883.
+1776123604: New client connected from ::1:34624 as auto-8C84591C-E02A-9AD7-EFD6-FD6B794609C9 (p2, c1, k60, u'nodered').
+1776123604: Client auto-8C84591C-E02A-9AD7-EFD6-FD6B794609C9 closed its connection.
+1776123634: New connection from ::1:43836 on port 1883.
+1776123634: New client connected from ::1:43836 as auto-01E34575-1B3B-5CDE-DAD0-CD23889C8AD1 (p2, c1, k60, u'nodered').
+1776123634: Client auto-01E34575-1B3B-5CDE-DAD0-CD23889C8AD1 closed its connection.
+1776123664: New connection from ::1:39442 on port 1883.
+1776123664: New client connected from ::1:39442 as auto-1AF5FE4D-BB83-F5F4-0B1E-5CAE7D16B5F7 (p2, c1, k60, u'nodered').
+1776123665: Client auto-1AF5FE4D-BB83-F5F4-0B1E-5CAE7D16B5F7 closed its connection.
+1776123695: New connection from ::1:40064 on port 1883.
+1776123695: New client connected from ::1:40064 as auto-9E71E9D6-F633-06AA-ABF5-4BFE5391BE68 (p2, c1, k60, u'nodered').
+1776123696: Client auto-9E71E9D6-F633-06AA-ABF5-4BFE5391BE68 closed its connection.
+1776123732: New connection from ::1:50068 on port 1883.
+1776123732: New client connected from ::1:50068 as auto-2C9F6D9A-7DC1-0B6F-C016-1166B39D9F2B (p2, c1, k60, u'nodered').
+1776123732: Client auto-2C9F6D9A-7DC1-0B6F-C016-1166B39D9F2B closed its connection.
+1776123763: New connection from ::1:59168 on port 1883.
+1776123763: New client connected from ::1:59168 as auto-E9764099-FDE4-9162-6673-F8C569F5FC80 (p2, c1, k60, u'nodered').
+1776123763: Client auto-E9764099-FDE4-9162-6673-F8C569F5FC80 closed its connection.
+1776123793: New connection from ::1:36722 on port 1883.
+1776123793: New client connected from ::1:36722 as auto-B6212AB8-F51C-2A66-1A2F-74341EF88797 (p2, c1, k60, u'nodered').
+1776123793: Client auto-B6212AB8-F51C-2A66-1A2F-74341EF88797 closed its connection.
+1776123823: New connection from ::1:35886 on port 1883.
+1776123823: New client connected from ::1:35886 as auto-54FC1129-EB4C-A08E-C471-D5F1986ED2AA (p2, c1, k60, u'nodered').
+1776123823: Client auto-54FC1129-EB4C-A08E-C471-D5F1986ED2AA closed its connection.
+1776123854: New connection from ::1:34228 on port 1883.
+1776123854: New client connected from ::1:34228 as auto-862B4B69-D4EE-7A07-19AC-2F5F1A62B81A (p2, c1, k60, u'nodered').
+1776123854: Client auto-862B4B69-D4EE-7A07-19AC-2F5F1A62B81A closed its connection.
+1776123884: New connection from ::1:47416 on port 1883.
+1776123884: New client connected from ::1:47416 as auto-9CF26241-379A-E01B-CC0E-2FCDDB1B676B (p2, c1, k60, u'nodered').
+1776123884: Client auto-9CF26241-379A-E01B-CC0E-2FCDDB1B676B closed its connection.
+1776123915: New connection from ::1:44408 on port 1883.
+1776123915: New client connected from ::1:44408 as auto-3D82896C-CB5A-533D-6C67-B44A14CB3EE1 (p2, c1, k60, u'nodered').
+1776123915: Client auto-3D82896C-CB5A-533D-6C67-B44A14CB3EE1 closed its connection.
+1776123945: New connection from ::1:43104 on port 1883.
+1776123945: New client connected from ::1:43104 as auto-1225FD68-B755-A19D-6F67-CFE974118907 (p2, c1, k60, u'nodered').
+1776123945: Client auto-1225FD68-B755-A19D-6F67-CFE974118907 closed its connection.
+1776123975: New connection from ::1:53576 on port 1883.
+1776123975: New client connected from ::1:53576 as auto-7F2C27EE-C0D4-593F-8753-BE3E49C8B225 (p2, c1, k60, u'nodered').
+1776123975: Client auto-7F2C27EE-C0D4-593F-8753-BE3E49C8B225 closed its connection.
+1776124006: New connection from ::1:41716 on port 1883.
+1776124006: New client connected from ::1:41716 as auto-A0FC6702-893D-71A7-F7F3-1FBFA6396558 (p2, c1, k60, u'nodered').
+1776124006: Client auto-A0FC6702-893D-71A7-F7F3-1FBFA6396558 closed its connection.
+1776124036: New connection from ::1:45048 on port 1883.
+1776124036: New client connected from ::1:45048 as auto-71441B70-F97E-DEAC-95DF-1D0C674F7985 (p2, c1, k60, u'nodered').
+1776124036: Client auto-71441B70-F97E-DEAC-95DF-1D0C674F7985 closed its connection.
+1776124066: New connection from ::1:45676 on port 1883.
+1776124066: New client connected from ::1:45676 as auto-51ABD956-EFD8-72A5-7C90-0AF4AEE069DF (p2, c1, k60, u'nodered').
+1776124066: Client auto-51ABD956-EFD8-72A5-7C90-0AF4AEE069DF closed its connection.
+1776124099: New connection from ::1:48974 on port 1883.
+1776124099: New client connected from ::1:48974 as auto-12B26060-7B4D-57F6-A0CF-6AF50E3AFB47 (p2, c1, k60, u'nodered').
+1776124099: Client auto-12B26060-7B4D-57F6-A0CF-6AF50E3AFB47 closed its connection.
+1776124131: New connection from ::1:59540 on port 1883.
+1776124131: New client connected from ::1:59540 as auto-5A80545C-5DFA-A652-D6D3-6BB3F197D5E5 (p2, c1, k60, u'nodered').
+1776124132: Client auto-5A80545C-5DFA-A652-D6D3-6BB3F197D5E5 closed its connection.
+1776124133: mosquitto version 2.0.22 terminating
+1776124133: Saving in-memory database to /mosquitto/data//mosquitto.db.

@@ -8,6 +8,7 @@ credentials/
 
 # Senhas Mosquitto geradas
 mosquitto/config/passwd
+mosquitto/log/mosquitto.log
 
 # Node-RED — flows com credenciais embarcadas
 node-red/data/.config.runtime.json
