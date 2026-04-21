@@ -141,11 +141,11 @@ MQTT_WS_PORT=9001
 
 # ⚠️ Senha do ESP32 no broker — crie uma senha forte
 MQTT_ESP32_USER=esp32
-MQTT_ESP32_PASSWORD=MinhaS3nhaForte!
+MQTT_ESP32_PASSWORD=senha esp
 
 # ⚠️ Senha do Node-RED no broker — crie uma senha forte diferente
 MQTT_NODERED_USER=nodered
-MQTT_NODERED_PASSWORD=OutraS3nha!
+MQTT_NODERED_PASSWORD=Senha Node-RED
 
 # Tópico MQTT — não altere, combina com o flow
 MQTT_TOPIC_TEMPERATURE=brewery/sensors/temperature
@@ -155,7 +155,7 @@ NODERED_PORT=1880
 
 # ⚠️ Login do painel web do Node-RED
 NODERED_ADMIN_USER=admin
-NODERED_ADMIN_PASSWORD=AdminS3nha!
+NODERED_ADMIN_PASSWORD=senha do Node-RED
 
 # ⚠️ Chave de criptografia interna — qualquer string longa e aleatória
 NODERED_CREDENTIAL_SECRET=brewery_chave_super_secreta_2026
